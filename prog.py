@@ -1,22 +1,25 @@
-import pyglet
-from pyglet.window import Window, mouse, gl, key
-from pyglet.gl import *
+import cv2
+import sys
+import datetime
 import argparse
 import pandas as pd
 import numpy as np
 import os
+
+import pyglet
+from pyglet.window import Window, mouse, gl, key
+from pyglet.gl import *
+
+from scipy.spatial import distance
+
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import MinMaxScaler
+
 from keras.models import Sequential
+from keras.models import model_from_json
 from keras.layers import BatchNormalization, Conv2D, Activation, MaxPooling2D, Dense, GlobalAveragePooling2D
 from keras.layers import Dropout, Flatten
 from keras import optimizers
-from keras.models import model_from_json
-import cv2
-import sys
-from scipy.spatial import distance
-import datetime
-from sklearn.preprocessing import MinMaxScaler
 
 
 platform = pyglet.window.get_platform()
