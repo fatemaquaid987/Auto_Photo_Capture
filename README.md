@@ -1,1 +1,1 @@
-# Automatic_Photo_Capture
+# Auto_Photo_Capture
