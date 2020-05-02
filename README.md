@@ -5,15 +5,15 @@ An AI powered program which automatically captures photos based on an expression
 As the name implies, this is a program which automatically captures expression in real time and clicks just the right shots! 
 
 ## Required Libraries/Tools 
-Python 3.5  
-OpenCV  
-Numpy  
-Pandas  
-Tensorflow  
-Pyglet  
-Scipy  
-Scikit Learn  
-Keras  
+Python         3.5  
+OpenCV         3.4.0.12
+Numpy          1.14.1
+Pandas         0.22.0
+Tensorflow     1.5.0
+Pyglet         1.3.1
+Scipy          1.0.0
+Scikit Learn   0.17.1
+Keras          2.1.3
 
  
 ## How to run
