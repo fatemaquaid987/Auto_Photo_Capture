@@ -17,7 +17,9 @@ Keras
 
  
 ## How to run
-Install the necessary libraries first, then open the prog.py file in a python IDE and hit run. 
+Install the necessary libraries.  
+Extract training.csv out of the training.zip folder into the root folder.  
+Open the prog.py file in a python IDE and hit run. 
 
 ## Controls
 Click on the expression you want to capture. The program will keep taking shots as long as the program is running and save it in the same folder as your program. Hit q to exit.  
