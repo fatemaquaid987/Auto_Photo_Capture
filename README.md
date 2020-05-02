@@ -5,7 +5,7 @@ An AI powered program which automatically captures photos based on an expression
 As the name implies, this is a program which automatically captures expression in real time and clicks just the right shots! 
 
 ## Required Libraries/Tools 
-|Library | version|
+|Library/Tool | version|
 |--------|---------|
 |Python         |3.5|  
 |OpenCV         |3.4.0.12|
